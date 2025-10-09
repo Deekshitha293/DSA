@@ -9,7 +9,7 @@ class Solution:
             if complement in num_dict:
                 # Found the pair, return their indices
                 return [num_dict[complement], i]
-            # Store current number and its index
+            # Stores current number and its index
             num_dict[num] = i
 
         # In case no solution is found (though question guarantees one)
