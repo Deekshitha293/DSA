@@ -1,6 +1,6 @@
 class Solution:
     def isPalindrome(self, s):
-        # Normalize string: lowercase + keep only alphanumeric characters
+    
         s = ''.join(char.lower() for char in s if char.isalnum())
         
         i, j = 0, len(s) - 1
