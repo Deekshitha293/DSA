@@ -1,6 +1,6 @@
 class Solution:
     def plusOne(self, digits):
-        # Step 1: Traverse from rightmost digit to left
+        
         for i in range(len(digits) - 1, -1, -1):
             digits[i] += 1  # add 1
             if digits[i] < 10:  # no carry
