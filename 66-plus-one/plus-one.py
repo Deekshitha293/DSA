@@ -3,7 +3,7 @@ class Solution:
         
         for i in range(len(digits) - 1, -1, -1):
             digits[i] += 1  # add 1
-            if digits[i] < 10:  # no carry
+            if digits[i] < 10: 
                 return digits
             digits[i] = 0  
         
