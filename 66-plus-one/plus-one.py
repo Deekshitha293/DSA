@@ -7,5 +7,5 @@ class Solution:
                 return digits
             digits[i] = 0  # digit becomes 10 → set to 0 and carry goes left
         
-        # Step 2: If all digits were 9, add 1 at the front
+        
         return [1] + digits
