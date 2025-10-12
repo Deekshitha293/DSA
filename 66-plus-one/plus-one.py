@@ -5,7 +5,7 @@ class Solution:
             digits[i] += 1  # add 1
             if digits[i] < 10:  # no carry
                 return digits
-            digits[i] = 0  # digit becomes 10 → set to 0 and carry goes left
+            digits[i] = 0  
         
         
         return [1] + digits
