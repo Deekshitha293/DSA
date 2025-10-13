@@ -13,7 +13,7 @@ class Solution {
                 maxArea = area;
             }
 
-            // move the shorter line 
+            // move the short
             if (height[left] < height[right]) {
                 left++;
             } else {
