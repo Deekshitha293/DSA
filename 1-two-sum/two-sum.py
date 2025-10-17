@@ -12,5 +12,5 @@ class Solution:
             # Stores current number and its index
             num_dict[num] = i
 
-        # In case no solution is found (though question guarantees one)
+        # In case no solution is found 
         return []
