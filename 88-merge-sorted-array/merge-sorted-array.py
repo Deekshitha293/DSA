@@ -5,7 +5,7 @@ class Solution:
         j = n - 1   # last element in nums2
         k = m + n - 1   # last position in nums1 (extra space)
 
-        # Compare from the back and place bigger one at 
+        # Compare from the back and place 
         while i >= 0 and j >= 0:
             if nums1[i] > nums2[j]:
                 nums1[k] = nums1[i]
