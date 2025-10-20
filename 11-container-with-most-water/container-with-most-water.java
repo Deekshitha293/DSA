@@ -10,7 +10,7 @@ class Solution {
             int area = width * minHeight;
 
             if (area > maxArea) {
-                maxArea = area;
+                maxArea = area; 
             }
 
             
