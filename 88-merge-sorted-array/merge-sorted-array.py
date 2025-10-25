@@ -1,6 +1,6 @@
 class Solution:
     def merge(self, nums1, m, nums2, n):
-        # Start from the
+        # Start from the end
         i = m - 1   # last valid element in nums1
         j = n - 1   # last element in nums2
         k = m + n - 1   # last position in nums1 (extra space)
