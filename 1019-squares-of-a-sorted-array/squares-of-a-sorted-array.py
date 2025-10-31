@@ -3,7 +3,7 @@ class Solution:
         n = len(nums)
         result = [0] * n
         left, right = 0, n - 1
-        pos = n - 1  # Fill from the end (largest square first)
+        pos = n - 1  
         
         while left <= right:
             left_square = nums[left] ** 2
