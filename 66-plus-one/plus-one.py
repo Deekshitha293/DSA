@@ -7,5 +7,5 @@ class Solution:
                 return digits
             digits[i] = 0  
         
-        
+        # print 
         return [1] + digits
