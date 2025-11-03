@@ -4,5 +4,5 @@ class Solution:
         if len(s) != len(t):
             return False
         
-        # Compare sorted versions of 
+        # Compare sorted versions of both strings
         return sorted(s) == sorted(t)
