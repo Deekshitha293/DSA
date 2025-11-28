@@ -1,6 +1,6 @@
 class Solution(object):
     def shuffle(self, nums, n):
-        x = nums[:n]   # first half
+        x = nums[:n]   
         y = nums[n:]   # second half
         result = []
 
