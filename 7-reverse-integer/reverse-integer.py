@@ -8,7 +8,7 @@ class Solution(object):
             digit = x % 10
             x //= 10
 
-            # Check overflow (before adding digit
+            # Check overflow (before adding digit)
             if rev > (2**31 - 1) // 10:
                 return 0
 
