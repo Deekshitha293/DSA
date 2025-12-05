@@ -1,6 +1,6 @@
 class Solution:
     def twoSum(self, nums, target):
-        # Dictionary to stor 
+        # Dictionary to store 
         num_dict = {}
 
         # Iterate over the array
