@@ -20,7 +20,7 @@ class Solution(object):
         # Step 2: Find the middle index
         middle_index = count // 2
 
-        # Step 3: Move to the middle node
+        # Step 3: Move to the node
         temp = head
         for _ in range(middle_index):
             temp = temp.next
