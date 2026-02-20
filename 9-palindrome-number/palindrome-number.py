@@ -4,6 +4,6 @@ class Solution(object):
             return False
         
         s = str(x)         
-        return s == s[::-1]  # check if forward == reverse
+        return s == s[::-1]  # che if forward == reverse
 
         
