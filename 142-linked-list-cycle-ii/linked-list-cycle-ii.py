@@ -13,7 +13,6 @@ class Solution(object):
         slow = head
         fast = head
 
-        # Step 1: Detect if a cycle exists
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
